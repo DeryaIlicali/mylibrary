@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> MY LIBRARY</title>
+	<link rel="javascript" href="mylibrary.js" type="text/js">
+	<link rel="stylesheet" href="mylibrary.css" type="text/css">
+	</head>
+	<body>
+		<h1>MY LIBRARY</h1>
+		<p> These tables show my library</p>
+		
+		<table id="table1" border="1">
+			<tr>
+				<th>Name</th>
+				<th>Category</th>
+				<th>Place</th>
+				<th>Number</th>
+			</tr>
+			<tr>
+				<td>Quantum Mechanics</td>
+				<td>Physics</td>
+				<td>Shelf - 1</td>
+				<td>1</td>
+			</tr>
+			<tr class="even">
+				<td>Cooking Meth</td>
+				<td>Chemistry</td>
+				<td>Shelf - 2</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Bio of Jessie Pinkman</td>
+				<td>Biography</td>
+				<td>Shelf - 1</td>
+				<td>1</td>
+			</tr>
+			<tr class="even">
+				<td>Quantum Mechanics</td>
+				<td>Physics</td>
+				<td>Shelf - 1</td>
+				<td>1</td>
+			</tr>
+		</table>
+		<table id="table2" border="1" margin="center">
+			<tr>
+				<th>Name</th>
+				<th>Category</th>
+				<th>Place</th>
+				<th>Number</th>
+			</tr>
+			<tr>
+				<td>Fundamental Java</td>
+				<td>Computer Science</td>
+				<td>Shelf - 2</td>
+				<td>1</td>
+			</tr>
+		</table>
+		<table id="table3" border="1" >
+			<tr>
+				<th>Name</th>
+				<th>Category</th>
+				<th>Place</th>
+				<th>Number</th>
+			</tr>
+			<tr>
+				<td>Born to Win</td>
+				<td>Psychology</td>
+				<td>Shelf - 3</td>
+				<td>1</td>
+			</tr>
+		</table>
+		
+		
+		<form class="add-form" action="/save">
+			<div class="group">
+				<label class="label" for="name">Name of the book:</label>
+				<div class="control">
+					<input id="name" type="text" name="Name of the book" class="txt">
+				</div>
+			</div>
+			
+			<div class="group">
+				<label class="label" for="category">Category:</label>
+				<div class="control" id="category">
+					<input type="radio" name="category" value="physics" class="radio">Physics <br />
+					<input type="radio" name="category" value="computer science" class="radio">Computer Science <br />
+					<input type="radio" name="category" value="psychology" class="radio">Psychology
+				</div>
+			</div>
+			
+			<div class="group">
+				<label class="label" for="place">Place:</label>
+				<div class="control" id="category">
+				
+					<input type="radio" name="shelf" value="shelf1" class="radio">Shelf-1<br>
+					<input type="radio" name="shelf" value="shelf2" class="radio">Shelf-2<br>
+					<input type="radio" name="shelf" value="shelf3" class="radio">Shelf-3
+				</div>
+			</div>
+		</form>
+		
+	</body>
+	
+
+</html>

@@ -1,0 +1,63 @@
+body {
+	background-color: #ecf0f1;
+	font-family: Arial, georgia, serif; 
+}
+
+h1 {
+	color: #2980b9;
+}
+
+p {
+	color: #3498db;
+}
+
+table {
+	width: 500px;
+	margin-bottom:50px;
+}
+
+table th {
+	background: #2c3e50;
+	color: #fff;
+	padding: 5px;
+	text-align: left;
+}
+
+table td {
+	padding: 5px;
+	background: #fff;
+}
+
+table tr.even td {
+	background: #ecf0f1;
+}
+
+.add-form {
+	margin-bottom:50px;
+}
+
+.add-form .group {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.add-form .group .label {
+	text-align: right;
+	float: left;
+	width: 17%;
+	margin-right: 3%;
+}
+
+.add-form .group .control {
+	float: left;
+	width: 80%;
+}
+
+.add-form .group .control .txt {
+	width: 40%;
+}
+
+.add-form .group .control .radio{
+	margin-right: 8px;
+}
