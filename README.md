@@ -1,2 +1,2 @@
 # mylibrary
-Sample library application with html/css/js and Rest/Jason
+Sample library application with html/css/js and Rest/Json
